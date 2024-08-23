@@ -3,6 +3,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 $route['default_controller'] = 'Dashboard';
 
+$route['usuarios'] = 'user/Main';
+$route['nuevo-usuario'] = 'user/Add';
+$route['nuevo-usuario/save'] = 'user/Add/save';
+$route['nuevo-usuario/upload'] = 'user/Add/upload';
+$route['usuario/(:num)'] = 'user/Edit/index/$1';
+$route['usuario/update/(:num)'] = 'user/Edit/update/$1';
+$route['usuario/delete/(:num)'] = 'user/Main/delete/$1';
+
 $route['login'] = 'Signin';
 $route['cerrarsesion'] = 'Signin/logout';
 
