@@ -1,0 +1,94 @@
+@keyframes gradientBG {
+    0% { background-position: 0% 0%; }
+    50% { background-position: 100% 100%; }
+    100% { background-position: 0% 0%; }
+  }
+  
+  .container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  
+  .card {
+    background: linear-gradient(135deg, #1e3c72 50%, #2a5298 50%);
+    color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+    padding: 2rem;
+    border: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+  }
+  
+  .card-header {
+    background-color: #5e72e4; /* Color de fondo azul */
+    color: #ffffff; /* Color del texto blanco */
+  }
+  
+  .card-header h3 {
+    color: #ffffff; /* Color del texto dentro del encabezado */
+  }
+  
+  .img-container {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .img-container img {
+    width: 60%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+  }
+  
+  .img-container img:hover {
+    transform: scale(1.05);
+  }
+  
+  .form-control {
+    border-color: #00d2ff;
+    background-color: #003f6c; /* Fondo oscuro para el formulario */
+    color: #e0e0e0; /* Color del texto en el formulario */
+  }
+  
+  .form-control::placeholder {
+    color: #00d2ff; /* Color del texto del marcador de posición */
+  }
+  
+  .btn-primary {
+    border-color: #007bff;
+    color: #ffffff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #007bff;
+    border-color: #0056b3;
+  } 
+  
+  .title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #000000; /* Texto negro */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 15px;
+  }
+  
+  .navbar-brand-img {
+    width: 140px; /* Ajusta el tamaño a tu preferencia */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+  }
+  
+  .navbar-brand-img:hover {
+    transform: scale(1.1);
+  }
+  
