@@ -11,6 +11,14 @@ $route['usuario/(:num)'] = 'user/Edit/index/$1';
 $route['usuario/update/(:num)'] = 'user/Edit/update/$1';
 $route['usuario/delete/(:num)'] = 'user/Main/delete/$1';
 
+$route['categorias'] = 'category/Main';
+$route['nuevo-categoria'] = 'category/Add';
+$route['nuevo-categoria/save'] = 'category/Add/save';
+$route['categoria/(:num)'] = 'category/Edit/index/$1';
+$route['categoria/update/(:num)'] = 'category/Edit/update/$1';
+$route['categoria/delete/(:num)'] = 'category/Main/delete/$1';
+
+
 $route['login'] = 'Signin';
 $route['cerrarsesion'] = 'Signin/logout';
 
