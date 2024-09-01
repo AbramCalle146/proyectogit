@@ -18,6 +18,12 @@ $route['categoria/(:num)'] = 'category/Edit/index/$1';
 $route['categoria/update/(:num)'] = 'category/Edit/update/$1';
 $route['categoria/delete/(:num)'] = 'category/Main/delete/$1';
 
+$route['marcas'] = 'marca/Main';
+$route['nuevo-marca'] = 'marca/Add';
+$route['nuevo-marca/save'] = 'marca/Add/save';
+$route['marca/(:num)'] = 'marca/Edit/index/$1';
+$route['marca/update/(:num)'] = 'marca/Edit/update/$1';
+$route['marca/delete/(:num)'] = 'marca/Main/delete/$1';
 
 $route['login'] = 'Signin';
 $route['cerrarsesion'] = 'Signin/logout';
